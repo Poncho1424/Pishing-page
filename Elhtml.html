@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pinterest</title>
+    <link rel="stylesheet" href="elcss.css">
+    
+</head>
+<header class="header">
+    <div class="inicio">
+        <div class="logotipo">
+            <img src="https://graffica.info/wp-content/uploads/2017/08/badgeRGB.png" width="24px" height="24px" class="imglogo">
+        </div>
+        <div class="p init">
+            <a href="#">Inicio</a>
+        </div>
+        <div class="p hoy">
+            <a href="#">Hoy</a>
+        </div>
+        <div class="p crear">
+            <a href="#">Crear</a>
+        </div>
+        <div class="desplegar">
+            <img src="./img/desplegar.png" alt="" height="12px" width="12px">
+        </div>
+    </div>
+    <div class="search p">
+        <input type="text" name="search" placeholder="Buscar">
+    </div>
+    <div class="options">
+        <div class="p">
+            <img src="https://i.pinimg.com/564x/b7/d8/5b/b7d85bd7cfaebf557af0dce1390f41ae.jpg" width="24px" height="24px">
+        </div>
+        <div class="p">
+            <img src="https://w7.pngwing.com/pngs/210/377/png-transparent-conversation-text-computer-icons-message-cool-icon-cdr-white-text.png" width="24px" height="24px">
+        </div>
+        <div class="p">
+            <div class="userimg">
+                <img src="https://www.olimpiadadeinformatica.org.mx/Resultados/img/user/1825.jpg" alt="Alfred" width="100%" height="100%">
+            </div>
+           
+        </div>
+    </div>
+</header>
+<body>
+    <div class="grid-container">
+        <img class="grid-item" src="https://i.pinimg.com/564x/b3/26/f4/b326f4f2098e83591d1360d12d01b120.jpg "/>
+        <img class="grid-item" src="https://i.pinimg.com/564x/a8/b2/c8/a8b2c8ece4d937ee4d97888bce98a1e4.jpg "/>
+        <img class="grid-item" src="https://i.pinimg.com/564x/00/04/4a/00044a15b655a88bb700e3943d637512.jpg " />
+        <img class="grid-item" src="https://i.pinimg.com/564x/2f/09/67/2f09678aaae9c1d034ccff1c1f9e7157.jpg"/>
+        <img class="grid-item" src="https://i.pinimg.com/564x/d8/4e/94/d84e940ecba61c57600f142c8765a63c.jpg "/>
+        <img class="grid-item" src="https://i.pinimg.com/564x/d9/4e/34/d94e34dedf180931290cd1f339219348.jpg"/>
+        <img class="grid-item" src="https://i.pinimg.com/564x/cd/eb/e9/cdebe90f284ae7d1cf51598edbb880a8.jpg "/>
+        <img class="grid-item" src="https://i.pinimg.com/564x/3e/05/1c/3e051ce20dda3980ca81a2566789d699.jpg   "/>
+        <img class="grid-item" src="https://i.pinimg.com/564x/f2/99/31/f299319a185f8533c5eeeaeda068b733.jpg "/>
+        <img class="grid-item" src="https://i.pinimg.com/564x/c2/1f/14/c21f140e4b7756a330ee0e3db71a88f9.jpg  "/>
+        <img class="grid-item" src="https://i.pinimg.com/564x/cf/01/58/cf0158450c544ea18058bc97747e5dac.jpg "/>
+        <img class="grid-item" src="https://i.pinimg.com/564x/50/6c/f4/506cf451d47776cf6bcb0f33cb2f8a7e.jpg"/>
+        <img class="grid-item" src="https://i.pinimg.com/564x/96/cf/01/96cf01a1fb5aed69181e92b6358ae95c.jpg"/>
+        <img class="grid-item" src="https://i.pinimg.com/564x/1c/08/c4/1c08c464775a08b8b43b012bfb24ed82.jpg"/>
+        <img class="grid-item" src="https://i.pinimg.com/564x/06/69/73/066973ae1007f3b5138d33dcb73632e4.jpg"/>
+        <img class="grid-item" src="https://i.pinimg.com/564x/39/5d/c2/395dc2c7b1cf4fb4a667ccc705f851d9.jpg"/>
+        <img class="grid-item" src="https://i.pinimg.com/564x/06/92/4a/06924a0669cb91dcf9661412cdbddd02.jpg "/>
+        <img class="grid-item" src="https://i.pinimg.com/564x/66/b7/48/66b7481b7dd8ab24e58795480d8fa097.jpg"/>
+        <img class="grid-item" src="https://i.pinimg.com/564x/00/04/4a/00044a15b655a88bb700e3943d637512.jpg"/>
+        <img class="grid-item" src="https://i.pinimg.com/564x/96/1d/0f/961d0f0f64bdeb81006b007e445e7157.jpg"/>
+
+
+
+</div>
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.js"></script>
+    <script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.min.js"></script>
+    <script>
+        var elem = document.querySelector('.grid-container');
+imagesLoaded( elem, () => {
+var msnry = new Masonry( elem, {
+  // options
+  itemSelector: '.grid-item',
+  columnWidth: 73
+  
+});
+} )
+        
+    </script>
+   
+
+</body>
+</html>
+
+
+
